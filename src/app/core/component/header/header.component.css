@@ -1,0 +1,36 @@
+.bg-main{
+    height: 68px;
+    z-index: 10;
+    display:flex;
+    padding: 5px;
+  }
+  .dark-nav{
+    background: #141414;
+  }
+  .navitems{
+    color: white;
+    display: flex;
+    padding: 1px;
+    margin-top: 19px;
+    cursor: pointer;
+  }
+  .gap{
+    margin-right: 7px;
+  }
+  .navitems:hover{
+    color: aqua;
+  }
+  .username{
+    color: white;
+    margin-left: 400px;
+    margin-top: 20px;
+    display: flex;
+    width: fit-content;
+  }
+  .signout:hover{
+    color: aqua;
+  }
+  .img{
+    border-radius: 50px;
+    margin-bottom: 5px;
+  }

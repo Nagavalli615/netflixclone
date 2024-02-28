@@ -1,0 +1,15 @@
+.img{
+  position: absolute;
+ 
+}
+.head{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    opacity: 0.7;
+}

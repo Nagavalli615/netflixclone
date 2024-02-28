@@ -1,0 +1,17 @@
+<header class="bg-main dark-nav sticky top-0">
+        <!-- logo & navigation-->
+        <img src="/assets/images/logo.png" width="110" alt="">
+        &nbsp; &nbsp;
+        <ul *ngFor="let item of navItems" class="navitems">
+            <li class ="gap">
+                {{item}}
+            </li>
+        </ul>
+        <div class="username">
+          <a href="/"><span>welcome <strong>{{name}}</strong></span></a>
+            &nbsp;&nbsp;
+            <img class="img" [src]="pic" alt="UserImage">
+            &nbsp; | &nbsp;
+            <a href="/"><span (click)="signout" class="signout">Signout</span></a>
+        </div>
+</header>
